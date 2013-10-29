@@ -1,0 +1,9 @@
+- SERVICE: &ftp-service
+    SERVICENAME: ftp
+    AUTOSTART: true
+    ALLOW_ANONYMOUS: true
+    WELCOME_MESSAGE: DroneD Experimental FTP Server
+    ANONYMOUS_USER: guest
+    PASSWORDFILE: /path/to/passwordfile
+    SITE_ROOT: /path/to/siteroot
+    PORT: 2121

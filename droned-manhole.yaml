@@ -1,0 +1,6 @@
+- SERVICE: &manhole-service
+    SERVICENAME: manhole
+    AUTOSTART: true
+    USERNAME: guest
+    PASSWORD: guest
+    PORT: 9999

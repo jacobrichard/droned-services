@@ -1,0 +1,8 @@
+- SERVICE: &django-service
+    SERVICENAME: django
+    AUTOSTART: true
+    DJANGO_ROOT: /example/django/root
+    SITE_ROOT: /example/django/root/application
+    STATIC_ROOT: /example/django/root/application/static/
+    APP_NAME: application
+    PORT: 8000
